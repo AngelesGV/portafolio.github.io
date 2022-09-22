@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    background: url("/Portafolio_AngG/imagenes/fondo_portafolio.png");
+    background: url("./Portafolio_AngG/imagenes/fondo_portafolio.png");
     padding-bottom: 100px;
 }
 
@@ -113,9 +113,9 @@
 }
 
 .btn-portafolio:hover .codigo{
-    content: url("/Portafolio_AngG/imagenes/link-pagina-proyecto_hover.png");
+    content: url("./Portafolio_AngG/imagenes/link-pagina-proyecto_hover.png");
 }
 
 .btn-portafolio:hover .github{
-    content: url("/Portafolio_AngG/imagenes/icono-github-negro_hover.png");
+    content: url("./Portafolio_AngG/imagenes/icono-github-negro_hover.png");
 }

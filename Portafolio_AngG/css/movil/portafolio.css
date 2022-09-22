@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px) {
+    .cont-Portafolio{
+        background: white;
+    }
+
+    .titulo-Portafolio {
+        font-size: 60px;
+    }
+        
+    .cont-proyecto {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 60px 60px 0px 60px;
+        padding: 0%;
+    }
+
+    .img-portafolio{
+        width: 275px;
+        height: 190px;
+        border-radius: 0%;
+    }
+
+    .cont-texto-portafolio{
+        justify-content:center;
+        margin: 0%;
+    }
+
+    .titular-proyecto{
+        font-size: 16px;
+    }
+
+    .titulo-proyecto-portafolio{
+        font-size: 42px;
+    }
+
+    .descripcion-proyecto{
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .btns-portafolio{
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .icono-link-proyecto{
+        width: 28px;
+        height: 28px;
+    }
+
+    #cont-Encriptador{
+        flex-direction: column;
+    }
+
+}

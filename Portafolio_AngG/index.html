@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,60 +7,381 @@
         <link rel="stylesheet" href="./css/reset.css"> 
         <link rel="stylesheet" href="./css/style.css"> 
         <link rel="stylesheet" href="./css/Escritorio/circulos.css">
-        <link rel="stylesheet" href="./css/Escritorio/cuerpo.css">        
-        <link href="https://fonts.googleapis.com/css2? family=Raleway&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2? family=Rasa:wght@300&display=swap" rel="stylesheet">
-        <title>Home | Portafolio</title>
+        <link rel="stylesheet" href="./css/Escritorio/Portada.css">
+        <link rel="stylesheet" href="./css/Escritorio/sobreMi.css">   
+        <link rel="stylesheet" href="./css/Escritorio/skills_hobbies.css">   
+        <link rel="stylesheet" href="./css/Escritorio/formacion.css">
+        <link rel="stylesheet" href="./css/Escritorio/portafolio.css">
+        <link rel="stylesheet" href="./css/Escritorio/contacto.css">
+        <link rel="stylesheet" href="./css/table/Portada.css">
+        <link rel="stylesheet" href="./css/table/circulos.css">
+        <link rel="stylesheet" href="./css/table/sobreMi.css">
+        <link rel="stylesheet" href="./css/table/formacion.css">
+        <link rel="stylesheet" href="./css/table/portafolio.css">
+        <link rel="stylesheet" href="./css/movil/Portada.css">
+        <link rel="stylesheet" href="./css/movil/circulos.css">
+        <link rel="stylesheet" href="./css/movil/sobreMi.css">
+        <link rel="stylesheet" href="./css/movil/skills_hobbies.css">
+        <link rel="stylesheet" href="./css/movil/formacion.css">
+        <link rel="stylesheet" href="./css/movil/portafolio.css">
+        <link rel="stylesheet" href="./css/movil/contacto.css">
+        <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">        <title>Home | Portafolio</title>
     </head>
     <body>
-        <div class="encabezado">
-            <div class="cont-logo">
-                <img class="logo-img" src="./imagenes/logo.png">
-            </div>
-            <div class="cont-menu-principal">
-                <nav>
-                    <ul class="list-menu-principal">
-                        <li class="item"><a>About me</a></li>
-                        <li class="item"><a>Skill</a></li>
-                        <li class="item"><a>Hobbies</a></li>
-                        <li class="item"><a>Studies</a></li>
-                        <li class="item"><a>Proyects</a></li>
-                        <li class="item"><a>Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="cont-portada">
-            <div class="fondo-negro">
-                <div>
-                    <div class="circle-p r" id="circle-p-uno"></div>
-                    <div class="circle-p b" id="circle-p-dos"></div>
-                    <div class="circle-p a" id="circle-p-tres"></div>
-                    <div class="circle-m a" id="circle-m-uno"></div>
-                    <div class="circle-g b" id="circle-g-uno"></div>
-                    <div class="circle-g r" id="circle-g-dos"></div>
-                    <div class="circle-m b" id="circle-m-dos"></div>
-                    <div class="circle-m r" id="circle-m-tres"></div>
-                    <div class="circle-p a" id="circle-p-cuatro"></div>
-                    <div class="circle-p r" id="circle-p-cinco"></div>
-                    <div class="circle-m a" id="circle-m-cuatro"></div>
+        <div class="filtro-body-rosa">
+            <div class="filtro-body-negro">
+                <div class="encabezado">
+                    <div class="cont-logo">
+                        <img class="logo-img" src="./imagenes/logo.png">
+                        <div class="logo-titulo">
+                            <span>A</span>N<span>G</span>EL
+                        </div>
+                        <div class="icono-menu" id="icono-menu">
+                            <img src="./imagenes/icono-menu.png">
+                        </div>
+                    </div>
+
+                    <div class="cont-menu-principal">
+                        <nav class="nav-list-menu">
+                            <ul class="list-menu-principal">
+                                <li class="item"><img src="./imagenes/icon-mujer.png" class="icons-items-principal" id=""><a href="#sobre-mi">About me</a></li>
+                                <li class="item"><img src="./imagenes/icon-skill.png" class="icons-items-principal" id=""><a href="#skill">Skill</a></li>
+                                <li class="item"><img src="./imagenes/icon-hobbies.png" class="icons-items-principal" id=""><a href="#hobbies">Hobbies</a></li>
+                                <li class="item"><img src="./imagenes/icon-estudios.png" class="icons-items-principal" id=""><a href="#formacion">Studies</a></li>
+                                <li class="item"><img src="./imagenes/icon.portafolio.png" class="icons-items-principal" id=""><a href="#proyectos">Proyects</a></li>
+                                <li class="item"><img src="./imagenes/icon-contactos.png" class="icons-items-principal" id=""><a href="#contacto">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="titulo-portada">
-                    <p>
-                        <h1 class="titulo"> <span class="letra-celeste">&lt;</span><span  class="letra-fucsia">A</span>ngeles <span  class="letra-amarilla">G</span>uillen<span  class="letra-celeste">&gt;</span> </h1>
-                    </p>
-                    <p>
-                        <h3>Hola soy estudiante de Oracle Next Education y  estoy aprendiendo a manejar HTML5, CC3 y Javascript.</h3>
-                    </p>
+                <div class="cont-portada">
+                    <div>
+                        <div class="circle-p r" id="circle-p-uno"></div>
+                        <div class="circle-p b" id="circle-p-dos"></div>
+                        <div class="circle-p a" id="circle-p-tres"></div>
+                        <div class="circle-m a" id="circle-m-uno"></div>
+                        <div class="circle-g b" id="circle-g-uno"></div>
+                        <div class="circle-g r" id="circle-g-dos"></div>
+                        <div class="circle-m b" id="circle-m-dos"></div>
+                        <div class="circle-m r" id="circle-m-tres"></div>
+                        <div class="circle-p a" id="circle-p-cuatro"></div>
+                        <div class="circle-p r" id="circle-p-cinco"></div>
+                        <div class="circle-m a" id="circle-m-cuatro"></div>
+                    </div>
+                    <div class="titulo-portada">
+                        <p>
+                            <h1 class="titulo"> <span class="letra-celeste">&lt;</span><span  class="letra-fucsia">A</span>ngeles <span  class="letra-amarilla">G</span>uillen<span  class="letra-celeste">&gt;</span> </h1>
+                        </p>
+                        <p>
+                            <h3 class="content-portada">Hola soy estudiante de Oracle Next Education y  estoy aprendiendo a manejar HTML5, CC3 y Javascript.</h3>
+                        </p>
+                    </div>
+                </div>
+                <div class="cont-sobre-mi" id="sobre-mi">
+                    <div class="circle-p r" id="circle-p-seis"></div>
+                    <div class="circle-m a" id="circle-m-cinco"></div>
+                    <div class="circle-g b" id="circle-g-tres"></div>
+                    <div class="cont-Foto-Perfil">
+                        <div class="borde-Foto-Perfil">
+                           <img class="Foto-Perfil" src="./imagenes/foto_perfil.jpg">
+                        </div>
+                        <a href="https://drive.google.com/file/d/1QtCeNl82dqVBKL4aAwJXEumqwxb1vrvN/view?usp=sharing"><button class="btn-curriculum">CURRICULUM</button></a>
+                    </div>
+                    <div class="cont-texto-sobre-me">
+                        <h1 class="titulo-sobre-mi">Sobre <span class="letra-celeste">Mi</span></h1>
+                        <p class="parrafo-sobre-mi">&nbsp; &nbsp; Hola mi nombre es Angeles Guillen y tengo 22 años, soy Venezolana pero actualmente vivo en Chile. En este momento estoy cursando mi sexto semestre de Ingeniería en Informática. Tambien me encuentro participando en los cursos de ONE - Oracle Next Education.</p>
+                        <div class="cont-icons-contacto">
+                            <a href="https://github.com/AngelesGV"><img class="icons-contacto" id="icon-github" src="./imagenes/Logo_Github_B.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/angeles-guillen-71416a243/"><img class="icons-contacto" id="icon-linkedin" src="./imagenes/Logo_Linkedin_B.png" alt=""></a>
+                            <a href="mailto:angeles.guillen.av@gmail.com?subject=Pregunta"><img class="icons-contacto" id="icon-correo" src="./imagenes/Logo_Correo_B.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-Skills" id="skill">
+                    <div class="cont-titulo-skill">
+                        <h1 class="titulo-skills">Skill</h1>
+                        <h3 class="parrafo-skills">Tengo conocimientos en</h3>
+                    </div>
+                    <div class="cont-grupos-skills">
+                        <div class="fila-uno">
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/html-5.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">HTML</div>
+                            </div>
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/css-3.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">CSS</div>
+                            </div>                            
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/java-script.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">JAVASCRIPT</div>
+                            </div>                            
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/java.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">JAVA</div>
+                            </div>                            
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/python.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">PYTHON</div>
+                            </div>
+                            
+                        </div>
+                        <div class="fila-dos">
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/php.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">PHP</div>
+                            </div> 
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/mysql.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">MYSQL</div>
+                            </div>                    
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/figma.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">FIGMA</div>
+                            </div> 
+                            <div class="grupo-skill">
+                                <div class="borde-circle-skill">
+                                    <div class="circle-skill">
+                                        <img class="icon-skill" src="./imagenes/indesign.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-skill">INDESIGN</div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-hobbies" id="hobbies">
+                    <div class="cont-titulo-hobbies">
+                        <h1 class="titulo-hobbies">Hobbies</h1>
+                        <h3 class="parrafo-hobbies">Me gusta pasar mi tiempo</h3>
+                    </div>
+                    <div class="cont-grupos-hobbies">
+                        <div class="fila-uno">
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/mando_juego.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">JUGANDO</div>
+                            </div>
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/pintar.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">PINTAR</div>
+                            </div>
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/leer.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">LEER</div>
+                            </div>
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/escribir.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">ESCRIBIR</div>
+                            </div>
+                        </div>
+                        <div class="fila-dos">
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/palomitas.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">VER PELICULAS</div>
+                            </div>
+                            <div class="grupo-hobbie">
+                                <div class="borde-circle-hobbie">
+                                    <div class="circle-hobbie">
+                                        <img class="icon-hobbie" src="./imagenes/musica.png">
+                                    </div>
+                                </div>
+                                <div class="titulo-hobbie">ESCUCHAR MUSICA</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-Formacion" id="formacion">
+                    <div class="cont-titulo-Formacion">
+                        <h1 class="titulo-formacion">Formación</h1>
+                    </div>
+                    <div class="cont-card-formacion">
+                        <div class="borde-color-formacion">
+                            <div class="cuerpo-formacion">
+                                <div class="imagen-formacion">
+                                    <img class="img-formacion" src="./imagenes/excel.png"/>
+                                </div>
+                                <div class="descripcion-formacion">
+                                    <div class="mini-titulo-formacion">Excel Basico</div>
+                                    <div class="lugar-formacion"><span class="subtitulo-formación">Plataforma:&nbsp;</span><img class="icon-lugar-formacion" src="./imagenes/icono-udemy.png">&nbsp;<span class="nombre-lugar-formacion">Udemy</span></div>
+                                    <div class="estado-formacion">Año 2021</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="formacion-del-medio">
+                            <div class="cuerpo-formacion-del-medio">
+                                <div class="imagen-formacion">
+                                    <img class="img-formacion-del-medio" src="./imagenes/oracle.png"/>
+                                </div>
+                                <div class="descripcion-formacion">
+                                    <div class="mini-titulo-formacion">Oracle - Next Education</div>
+                                    <div class="lugar-formacion"><span class="subtitulo-formación">Plataforma:&nbsp;</span><img class="icon-lugar-formacion" src="./imagenes/icono-alura.png">&nbsp;<span class="nombre-lugar-formacion">Alura</span></div>
+                                    <div class="estado-formacion">En curso</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="borde-color-formacion">
+                            <div class="cuerpo-formacion">
+                                <div class="imagen-formacion">
+                                    <img class="img-formacion" src="./imagenes/ilus_photo_desing.png"/>
+                                </div>
+                                <div class="descripcion-formacion">
+                                    <div class="mini-titulo-formacion">Photoshop, Illustrator & InDesign</div>
+                                    <div class="lugar-formacion"><span class="subtitulo-formación">Plataforma:&nbsp;</span><img class="icon-lugar-formacion" src="./imagenes/icono-cdd.jpg">&nbsp;<span class="nombre-lugar-formacion">CDD</span></div>
+                                    <div class="estado-formacion">Año 2017</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="cont-divisor">
+                    <hr class="divisor-colorido">
                 </div>
 
-            </div>
-            <div class="cont-sobre-mi">
-                <div class="fondo-negro">
+                <div class="cont-Portafolio" id="proyectos">
+                    <div class="cont-titulo-Portafolio">
+                        <h1 class="titulo-Portafolio">Portafolio</h1>
+                    </div>
+                    <div class="cont-proyectos-destacado">
+                        <div class="cont-proyecto">
+                            <a class="link-img-portafolio" href="https://angelesgv.github.io/Juego_Del_Ahorcado_AngG/index.html"><img class="img-portafolio" src="./imagenes/Elahorcado.png"></a>
+                            <div class="cont-texto-portafolio">
+                                <div class="descripcion-portafolio">
+                                    <span class="titulo-proyecto-portafolio" id="El-ahorcado">El Ahorcado</span>
+                                    <span class="titular-proyecto">Proyecto destacado</span>
+                                    <div class="descripcion-proyecto">&nbsp;&nbsp; Este es un juego del ahorcado, creado a traves de HTML, CSS y Javascript. Tiene tematica country, atrevete y dale clic a demo para probarlo o a github para ver su codigo.</div>
+                                </div>
+                                <div class="btns-portafolio">
+                                    <a class="btn-portafolio" href="https://angelesgv.github.io/Juego_Del_Ahorcado_AngG/index.html"><img  class="icono-link-proyecto codigo" src="./imagenes/link-pagina-proyecto.png"><span>Pagina</span></a>
+                                    <a class="btn-portafolio" href="https://github.com/AngelesGV/Juego_Del_Ahorcado_AngG"><img  class="icono-link-proyecto github" src="./imagenes/icono-github-negro.png"><span>Github</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cont-proyecto" id="cont-Encriptador">
+                            <div class="cont-texto-portafolio">
+                                <div class="descripcion-portafolio">
+                                    <span class="titulo-proyecto-portafolio" id="Decodificador">Encriptador</span>
+                                    <span class="titular-proyecto">Proyecto destacado</span>
+                                    <div class="descripcion-proyecto">&nbsp;&nbsp; Esta es una pagina web, creada a traves de HTML, CSS y Javascript. Tiene tematica de colores azules y pastel, atrevete y dale clic a demo para probarlo o a github para ver su codigo.</div>
+                                </div>
+                                <div class="btns-portafolio">
+                                    <a class="btn-portafolio" href="https://angelesgv.github.io/Encriptador_Challenge_AngG/home"><img  class="icono-link-proyecto codigo" src="./imagenes/link-pagina-proyecto.png"><span>Pagina</span></a>
+                                    <a class="btn-portafolio" href="https://github.com/AngelesGV/Encriptador_Challenge_AngG"><img  class="icono-link-proyecto github" src="./imagenes/icono-github-negro.png"><span>Github</span></a>
+                                </div>
+                            </div>
+                            <a class="link-img-portafolio" href="https://angelesgv.github.io/Encriptador_Challenge_AngG/home"><img class="img-portafolio" src="./imagenes/Encriptador.png"></a>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="cont-divisor">
+                    <hr class="divisor-colorido">
+                </div>
+
+                <div class="cont-Contacto" id="contacto">
+                    <div class="cont-titulo-Contacto">
+                        <h1 class="titulo-Contacto">Contacto</h1>
+                        <span class="texto-contactar">¿Quieres contactarme?</span>
+                        <span class="texto-contactar">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</span>
+                    </div>
+                    <div class="cont-formulario-contacto">
+                        <form class="formulario-de-contacto"  action="https://formsubmit.co/783ae01cf5b236fcd5fd533c438f1cec" method="post">
+                            <div class="cuerpo-formulario-contacto">
+                                <div class="fila-contacto">
+                                    <div class="columna-contacto">
+                                        <label class="titulo-label-contacto">Nombre</label>
+                                        <input class="inputs-formulario" id="nombre-usu" type="text" name="name" placeholder="Nombre Apellido" required>
+                                    </div>
+                                    <div class="columna-contacto">
+                                        <label class="titulo-label-contacto">Correo</label>
+                                        <input class="inputs-formulario" id="email-usu"  type="email" name="email" placeholder="elcorreo@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="fila-contacto">
+                                    <div class="columna-contacto">
+                                        <label class="titulo-label-contacto">Asunto</label>
+                                        <input class="inputs-formulario" id="asunto-usu" type="text" name="asunto" placeholder="Consulta" required>
+                                    </div>
+                                </div>
+                                <div class="fila-contacto">
+                                    <div class="columna-contacto">
+                                        <label class="titulo-label-contacto">Mensaje</label>
+                                        <textarea onkeyup="countChars(this);" class="inputs-formulario-mensaje" id="msj-usu"  name="mensaje" placeholder="Buenos dias, tarde, noche..." required maxlength="570"></textarea>
+                                        <p class="alerta-caracteres" id="contador-textarea">&nbsp; Maximo 570 caracteres</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn-enviar-formulario" id="btn-enviar" type="submit" onclick="javascript:mensaje_alerta()">ENVIAR</button>
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Portafolio_AngG/exito.html">
+                            <input type="hidden" name="_captcha" value="false">
+                        </form> 
+
+                    </div>
+                </div>
+                <div class="cont-footer">
+                    <footer>
+                        <span>Desarrollado por &copy;Angeles Guillen</span>
+                        <span>2022</span>
+                    </footer>
+                </div>
             </div>
         </div>
-        
     </body>
+    <script src="./javascript/menu-desplegable.js"></script>
+    <script src="./javascript/contador.js"></script>
 </html>

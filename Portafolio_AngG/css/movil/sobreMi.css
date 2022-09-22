@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px) {
+
+
+    .cont-sobre-mi{
+        padding: 0%;
+        justify-content: flex-start;
+        margin-bottom: 150px;
+    }
+
+    .cont-texto-sobre-me{
+        width: 100%;
+        margin: 200px 40px;
+    }
+
+    .borde-Foto-Perfil{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .Foto-Perfil{
+        width: 238px;
+        height: 238px;
+    }
+
+    .cont-texto-sobre-me{
+        width: 80%;
+    }
+    .titulo-sobre-mi{
+        margin-top: 20px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .parrafo-sobre-mi{
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+
+}

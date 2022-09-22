@@ -1,0 +1,121 @@
+.cont-Portafolio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background: url("/Portafolio_AngG/imagenes/fondo_portafolio.png");
+    padding-bottom: 100px;
+}
+
+.cont-titulo-Portafolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-Portafolio{
+    margin: 50px 0px 10px 0px;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.cont-proyecto{
+    display: flex;
+    margin-top: 120px;
+    margin: 120px 180px 0px 120px;
+}
+
+.img-portafolio{
+    width: 700px;
+    height: 400px;
+
+    border-radius: 10px;
+    transition: ease 2s;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.402);
+}
+
+.img-portafolio:hover{
+    transform: scale(1.05);
+    box-shadow: none;
+
+}
+
+.cont-texto-portafolio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+
+.descripcion-portafolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.titular-proyecto{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.titulo-proyecto-portafolio{
+    font-size: 51.5px;
+    font-family: 'Lobster';
+    font-weight: 700;
+    color: black;
+}
+
+.descripcion-proyecto{
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    text-align:justify;
+    line-height: 22px;
+}
+
+.btns-portafolio{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-portafolio{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.btn-portafolio:hover{
+    color: #313131;
+}
+
+.icono-link-proyecto{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.btn-portafolio:hover .codigo{
+    content: url("/Portafolio_AngG/imagenes/link-pagina-proyecto_hover.png");
+}
+
+.btn-portafolio:hover .github{
+    content: url("/Portafolio_AngG/imagenes/icono-github-negro_hover.png");
+}

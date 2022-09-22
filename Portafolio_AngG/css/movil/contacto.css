@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+
+    .titulo-Contacto{
+        font-size: 60px;
+    }
+
+    .texto-contactar{
+        margin: 0px 25px 0px 25px;
+        line-height: 25px;
+    }
+
+    .formulario-de-contacto {
+        width: 90%;
+    }
+
+    .cuerpo-formulario-contacto{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .fila-contacto{
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columna-contacto{
+        margin: 10px ;
+    }
+
+    .alerta-caracteres{
+        margin-top: 20px;
+        font-size: 16px;
+        width: 100%;    
+    }
+    
+}

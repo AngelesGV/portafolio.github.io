@@ -1,0 +1,95 @@
+@media screen and (max-width: 820px) {
+        
+    .circle-p{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        z-index: 0;
+    }
+
+    #circle-p-uno{
+        left: 30%;
+        top: 14%;
+
+    }
+
+    #circle-p-dos{
+        left:  45%;
+        top: 32%;
+
+    }
+
+    #circle-p-tres{
+        left:  60%;
+        top: 20%;
+    }
+
+    #circle-p-cuatro{
+        left:  8%;
+        top: 80%;
+    }
+
+    #circle-p-cinco{
+        left:  80%;
+        top: 85%;
+    }
+
+    #circle-p-seis{
+        left: 15%;
+        top: 140%;
+    }
+
+    .circle-m{
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+    }
+
+    #circle-m-uno{
+        left: 10%;
+        top: 22%;
+    }
+
+    #circle-m-dos{
+        left: 80%;
+        top: 60%;
+    }
+
+    #circle-m-tres{
+        left: 18%;
+        top: 65%;
+    }
+
+    #circle-m-cuatro{
+        left: 60%;
+        top: 70%;
+    }
+
+    #circle-m-cinco{
+        left: 68%;
+        top: 184%;
+    }
+
+    .circle-g{
+        position:absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+
+    }
+
+    #circle-g-uno{
+        left: 28%;
+        top: 80%;
+    }
+
+    #circle-g-dos{
+        left: 74%;
+        top: 10%;
+    }
+
+
+}
+

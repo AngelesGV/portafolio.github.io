@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    .cont-logo{
+        width: 100%;
+    }
+
+    .icono-menu{
+        display: block;
+        margin: 5px 0% 0% 75% ;
+    }
+
+    .cont-menu-principal{
+        position: fixed;
+        display: flex;
+        justify-content:flex-start;
+        width: 55%;
+        height: 100vh;
+        top: 80px;
+        right: 0%;
+        margin: 0%;
+
+        background: #303030;
+    }
+    
+    .list-menu-principal{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 50px;
+    }
+    
+    .item{
+        letter-spacing: 2px;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+
+        color: rgb(255, 255, 255);
+        padding: 10px 150px 10px 20px;
+        margin: 25px 0px;
+    }
+    
+    .item:hover{
+        width: 100%;
+        padding: 10px 170px 10px 20px;
+        letter-spacing: 0px;
+        color: #0cdbff;
+
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+}
+

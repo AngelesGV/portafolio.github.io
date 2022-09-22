@@ -39,7 +39,7 @@
 
 #circle-p-dos{
     left:  60%;
-    top: 18%;
+    top: 25%;
 
 
 }
@@ -63,11 +63,6 @@
     top: 70%;
     width: 30px;
     height: 30px;
-}
-
-#circle-p-seis{
-    left: 10%;
-    top: 120%;
 }
 
 .circle-m{
@@ -97,11 +92,6 @@
     top: 75%;
 }
 
-#circle-m-cinco{
-    left: 38%;
-    top: 182%;
-}
-
 .circle-g{
     position:absolute;
     width: 148px;
@@ -116,11 +106,6 @@
 }
 
 #circle-g-dos{
-    left: 80%;
+    left: 83%;
     top: 28%;
-}
-
-#circle-g-tres{
-    left: 75%;
-    top: 110%;
 }

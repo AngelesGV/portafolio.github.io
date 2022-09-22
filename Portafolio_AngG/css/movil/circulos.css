@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+        
+    .circle-p{
+        display: none;
+    }
+
+    .circle-m{
+        display: none;
+    }
+
+    .circle-g{
+        display: none;
+    }
+
+
+}

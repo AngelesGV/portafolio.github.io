@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    height: 2000px;
+    background: url("/Portafolio_AngG/imagenes/fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filtro-body-rosa{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 16.67%, rgba(179, 24, 80, 0.7) 45%, rgba(0, 0, 0, 0.7) 68.75%);
+}
+
+.filtro-body-negro{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #000000 35%, rgba(0, 0, 0, 0) 80%);
+}
+
+.encabezado{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    padding: 0% 50px;
+    z-index: 1;
+}

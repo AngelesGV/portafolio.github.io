@@ -1,0 +1,122 @@
+.cont-Skills{
+    width: 100%;
+    height: 800px;
+    background: black;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+}
+
+.cont-hobbies{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(260.15deg, #22DCBA 21.06%, #FFE458 47.37%, #E11E64 83.63%);
+    border-bottom: 4px solid white;
+}
+
+.cont-titulo-skill, .cont-titulo-hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-skills{
+    margin: 120px 0px 10px 0px;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(260.15deg, #22DCBA 21.06%, #FFE458 47.37%, #E11E64 83.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.titulo-hobbies{
+    margin: 120px 0px 10px 0px;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.parrafo-skills, .parrafo-hobbies{
+    padding: 0%;
+    color: antiquewhite;
+    font-weight: normal;
+    font-family: 'Rasa', serif;
+    letter-spacing: 0.07em;
+    text-align: center;
+}
+
+.parrafo-hobbies{
+    color: black;
+}
+
+.fila-uno{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.fila-dos{
+    display: flex;
+    justify-content: center;
+}
+
+.grupo-skill, .grupo-hobbie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.borde-circle-skill, .borde-circle-hobbie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(357.72deg, #E11E64 -9.45%, #FFE458 46.08%, #22DCBA 98.26%);
+    border-radius: 100%;
+    box-shadow: 4px 4px 2px #3c3c3c3d;
+}
+
+.circle-skill, .circle-hobbie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    background: #1A1A1A;
+    border-radius: 100%;
+}
+
+.icon-skill, .icon-hobbie{
+    width: 45px;
+    height: 45px;
+}
+
+.titulo-skill, .titulo-hobbie{
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.titulo-skill{
+    color: white;
+}
+
+.titulo-hobbie{
+    color: black;
+    font-weight:bold;
+}

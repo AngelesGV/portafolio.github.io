@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    background: url("/Portafolio/Portafolio_AngG/imágenes/fondo_portafolio.png");
+    background: url("./imágenes/fondo_portafolio.png");
     padding-bottom: 100px;
 }
 

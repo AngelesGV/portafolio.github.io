@@ -38,7 +38,7 @@
     width: 100%;
     height:fit-content;
 
-    background: url('/Portafolio_AngG/imagenes/fondo_contacto.png');
+    background: url("/Portafolio_AngG/imagenes/fondo_contacto.png");
     background-position:center ;
     background-size:cover;
     background-repeat: no-repeat;

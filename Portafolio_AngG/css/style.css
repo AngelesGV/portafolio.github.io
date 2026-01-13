@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     height: fit-content;
-    background: url("/Portafolio_AngG/imagenes/fondo.png");
+    background: url("../imagenes/fondo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

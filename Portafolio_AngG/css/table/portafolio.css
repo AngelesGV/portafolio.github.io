@@ -1,7 +1,7 @@
 @media screen and (max-width: 820px) {
         
     .cont-Portafolio{
-        background: url("/Portafolio_AngG/imagenes/fondo_portafolio_table.png");
+        background: url("../../imagenes/fondo_portafolio_table.png");
     }
 
     .cont-proyecto{

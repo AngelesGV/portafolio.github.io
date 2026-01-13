@@ -98,14 +98,14 @@
 }
 
 #icon-github:hover{
-    content: url("/Portafolio_AngG/imagenes/Logo_Github_Ce.png");
+    content: url("../../imagenes/Logo_Github_Ce.png");
 }
 
 #icon-linkedin:hover{
-    content: url("/Portafolio_AngG/imagenes/Logo_Linkedin_Ce.png");
+    content: url("../../imagenes/Logo_Linkedin_Ce.png");
 }
 
 #icon-correo:hover{
-    content: url("/Portafolio_AngG/imagenes/Logo_Correo_Ce.png");
+    content: url("../../imagenes/Logo_Correo_Ce.png");
 }
 

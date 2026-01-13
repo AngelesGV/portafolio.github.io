@@ -3,7 +3,7 @@
     height: 800px;
     background: black;
     border-bottom: 4px solid white;
-    border-top: 4px solid white;
+    /* border-top: 4px solid white; */
 }
 
 .cont-hobbies{
